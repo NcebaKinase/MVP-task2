@@ -1,0 +1,33 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+}
+
+form input {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.4rem;
+  width: 100%;
+}
+
+button {
+  margin: 0.3rem 0.5rem 0.3rem 0;
+}
+
+.link-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  form input {
+    font-size: 0.9rem;
+  }
+}
